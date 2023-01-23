@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Afifah's 18th Birthday</title>
+  <style type="text/css">
+  #lihat {
+    border: 5px double rgb(179, 224, 252);
+    background: transparent;
+    color: rgb(207, 252, 253);
+    margin-top: -500px; margin-left: 372px; margin-right: 300px;
+  }
+  #lihat1 {
+    border: 5px double rgb(179, 224, 252);
+    background: transparent;
+    color: rgb(207, 252, 253);
+    margin-top: -500px; margin-left: 414px; margin-right: 400px;
+  }
+  #lihat:hover {
+    color: rgb(207, 253, 248);
+    border: 4px outset rgb(179, 255, 251);
+  }
+  #lihat1:hover {
+    color: rgb(207, 253, 248);
+    border: 4px outset rgb(179, 255, 251);
+  }
+  </style>
+  <link rel='stylesheet' href='https://unpkg.com/augmented-ui@2.0.0/augmented-ui.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.35.0/codemirror.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.1/addon/scroll/simplescrollbars.min.css'><link rel="stylesheet" href="style_birthday.css">
+</head>
+
+<body>
+<code class="code-container" content="From Zaidan to Si Bawel dan Rewel, hehe"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <div id="app"></div>
+  <a id="lihat" class="code-container" href="slide_song.html"target="_blank">Setel lagunya dulu dong, baru klik yang di bawah</a><br><br>
+  <a id="lihat1" class="code-container" href="slide_transition.html">  Udah setel lagunya? Oky, kita lanjut</a>
+  <div class="glow-container">
+    <div class="augs" data-augmented-ui></div>
+  </div>
+  <section class="augs bg" data-augmented-ui>
+    <button class="dots" onclick="changeMode()" title="change mode"></button>
+    <input value="Happy Birthday Afifah!">
+    <canvas id="canvas"></canvas>
+    <div class="code highcontrast-dark">
+    <textarea id="code">
+#include <stdio.h>
+
+ int main(){
+  printf(''Happy birthday, @Afifah Kahla Putri Darmawan 🤗\n\n'');
+
+  printf(''Sekarang udah tambah dewasa ya, udah nyentuh 18 tahun 
+  atau bisa juga dibilang masuk usia ke - 19\n'');
+  printf(''Nah, zaidan ada sedikit ucapan dan doa buat fifah, ada di bawah ya,
+  silahkan diklik :) '');
+
+  return 0;
+ }</textarea>
+      </div>
+  </section>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.1/codemirror.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.1/mode/javascript/javascript.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.1/mode/css/css.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.1/addon/scroll/simplescrollbars.min.js'></script><script  src="script_birthday.js"></script>
+
+</body>
+</html>
